@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1366</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font: 24pt &quot;微软雅黑&quot;;
+background-color: rgb(0, 85, 127);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPlainTextEdit" name="DemoName">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1391</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 36pt &quot;黑体&quot;;
+color: rgb(0, 85, 127);
+background-color: rgb(85, 170, 127);</string>
+    </property>
+    <property name="plainText">
+     <string>CRIPAC Gait Demo V1.0</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="plainTextEdit">
+    <property name="geometry">
+     <rect>
+      <x>1150</x>
+      <y>20</y>
+      <width>211</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(85, 170, 127);
+font: 75 14pt &quot;黑体&quot;;
+border-color: rgb(85, 170, 127);
+border-color: rgb(85, 170, 127);
+color: rgb(0, 85, 127);</string>
+    </property>
+    <property name="plainText">
+     <string>Powered by DEVELOP</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="recognize">
+    <property name="geometry">
+     <rect>
+      <x>1160</x>
+      <y>310</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 85, 127);
+selection-background-color: rgb(85, 170, 127);
+background-color: rgb(255, 255, 255);
+border-color: rgb(0, 85, 127);
+alternate-background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+alternate-background-color: rgb(0, 85, 127);</string>
+    </property>
+    <property name="text">
+     <string>Recognize</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="state_print">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>570</y>
+      <width>151</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 18pt &quot;黑体&quot;;
+color: rgb(255, 0, 0);
+background-color: rgb(85, 170, 127);</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="save_gei">
+    <property name="geometry">
+     <rect>
+      <x>1160</x>
+      <y>220</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 85, 127);
+selection-background-color: rgb(85, 170, 127);
+background-color: rgb(255, 255, 255);
+border-color: rgb(0, 85, 127);
+alternate-background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+alternate-background-color: rgb(0, 85, 127);</string>
+    </property>
+    <property name="text">
+     <string>Save</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="register_2">
+    <property name="geometry">
+     <rect>
+      <x>1160</x>
+      <y>130</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 85, 127);
+selection-background-color: rgb(85, 170, 127);
+background-color: rgb(255, 255, 255);
+border-color: rgb(0, 85, 127);
+alternate-background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+alternate-background-color: rgb(0, 85, 127);</string>
+    </property>
+    <property name="text">
+     <string>Register</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="plainTextEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>570</y>
+      <width>131</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="plainText">
+     <string>State:</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="plainTextEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>343</x>
+      <y>570</y>
+      <width>131</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="plainText">
+     <string>Name:</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="id_name">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>570</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 18pt &quot;黑体&quot;;
+color: rgb(255, 0, 0);
+background-color: rgb(85, 170, 127);</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="plainTextEdit_4">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>570</y>
+      <width>111</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="plainText">
+     <string>Total:</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="id_num">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>570</y>
+      <width>151</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 18pt &quot;黑体&quot;;
+color: rgb(255, 0, 0);
+background-color: rgb(85, 170, 127);</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="updater">
+    <property name="geometry">
+     <rect>
+      <x>1160</x>
+      <y>400</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 85, 127);
+selection-background-color: rgb(85, 170, 127);
+background-color: rgb(255, 255, 255);
+border-color: rgb(0, 85, 127);
+alternate-background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+alternate-background-color: rgb(0, 85, 127);</string>
+    </property>
+    <property name="text">
+     <string>Update Bk</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1366</width>
+     <height>47</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
