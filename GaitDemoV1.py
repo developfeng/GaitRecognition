@@ -42,7 +42,7 @@ class GaitDemo(QtGui.QMainWindow, Ui_MainWindow):
         Ui_MainWindow.__init__(self)
         self.showFullScreen()
         self.setupUi(self)
-        self.capture = cv2.VideoCapture(1)# Edit this default num to 1 or 2, if you have multiple cameras.
+        self.capture = cv2.VideoCapture(0)# Edit this default num to 1 or 2, if you have multiple cameras.
         self.currentFrame=n.array([])
         self.firstFrame=None
         self.register_state = False
