@@ -3,6 +3,7 @@
 * By Chunfeng Song                                *
 * E-mail: developfeng@gmail.com                   *
 ------------------------------------------------------------------------
+ ![img](https://github.com/developfeng/GaitRecognition/blob/master/ToyGaitDemo.gif)
 
 i.    Overview
 ii.   Copying
