@@ -1,7 +1,7 @@
 ------------------------------------------------------------------------
 * Gait demo for Tutorial V1.0                     
 * By Chunfeng Song                                
-* E-mail: developfeng@gmail.com                   
+* E-mail: chunfeng.song@nlpr.ia.ac.cn                   
 ------------------------------------------------------------------------
  ![img](https://github.com/developfeng/GaitRecognition/blob/master/ToyGaitDemo.gif)
 
