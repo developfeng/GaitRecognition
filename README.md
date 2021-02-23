@@ -29,7 +29,7 @@ free to contact us.
 iii. USE
 -----------------------------
 This code should work on Windows or Linux, with Python and OpenCV.
-We highly recommend you install Anaconda and OpenCV2.4:
+We highly recommend you install Anaconda (python 2.7) and OpenCV2.4:
 
 1) You should install the python libraries (including PyQt4, numpy, PIL)and 
 OpenCV.
